@@ -1,9 +1,31 @@
+div{
+	background-color: #908DB3;
+	height: 100px;
+	width: auto;
+}
+
+#leftbanner{
+	background-color: blue;
+	height:auto;
+	width: 100px;
+}
+
+#rightbanner{
+	top: 100px;
+	right: auto;
+	background-color: green;
+	height: auto;
+	width: 100px;
+}
+
 h1 {
-	color: red;
+	color: black;
 	font-family: Verdana;
+	text-align: center;
 }
 
 h2 {
-	color: blue;
+	color: red;
 	font-family: Courier;
+	text-align: center;
 }

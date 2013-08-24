@@ -1,31 +1,73 @@
-div{
-	background-color: #908DB3;
-	height: 100px;
-	width: auto;
+html, body{
+	font-family: Crete Round, Verdana, sans serif;
+	margin: 0;
+	padding: 1px;
 }
 
-#leftbanner{
-	background-color: blue;
-	height:auto;
-	width: 100px;
+#pagecontainer{
+	width: 78.750em;
+	height: auto;
+	margin: auto;
+	border: 1px solid blue;
+	border-radius: 15px;
+}
+
+#headerbar{
+	height: 12.5em;
+}
+
+#headerbar h1:first-child{
+	font-size: 50px;
+	margin: 0;
+	padding-top: 1em;
+	padding-left: .3em;
+}
+
+#headerbar  h1:nth-child(2){
+	float: right;
+	padding-right: .8em;
+}
+
+#headerbar h2{
+	margin: 0;
+	padding-top: 1em;
+	padding-left: .8em;
 }
 
 #rightbanner{
-	top: 100px;
-	right: auto;
-	background-color: green;
-	height: auto;
-	width: 100px;
+	float: right;
+	width: 12.5em;
+	height: 41.250em;
 }
 
-h1 {
-	color: black;
-	font-family: Verdana;
+.sidebuttons{
 	text-align: center;
+	padding-top: 4.5em;
+	padding-bottom: 4.45em;
+	border-top: 1px solid blue;
+	border-left: 1px solid blue;
 }
 
-h2 {
-	color: red;
-	font-family: Courier;
-	text-align: center;
+#maincontent{
+	margin-right: 12.5em;
+	height: 41.250em;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid blue;
+}
+
+#maincontent p {
+	margin-top: 0;
+	padding-top: 2em;
+	margin-left: .5em;
+}
+
+#numfont{
+	font-family: Arial;
+}
+
+#footer{
+	clear: both;
+	height: 6em;
+	border-top: 1px solid blue;
 }

@@ -23,6 +23,9 @@ html, body{
 	padding-left: .3em;
 }
 
+a.headerbutton:link{text-decoration: none; color: black;}
+a.headerbutton:visited{color: black;}
+
 #headerbar  h1:nth-child(2){
 	float: right;
 	padding-right: .8em;
@@ -47,6 +50,12 @@ html, body{
 	border-top: 1px solid blue;
 	border-left: 1px solid blue;
 }
+
+a.buttonlinks:link{text-decoration: none;}
+a.buttonlinks:visited{color: red;}
+a.buttonlinks:hover{color: gray;}
+
+
 
 #maincontent{
 	margin-right: 12.5em;

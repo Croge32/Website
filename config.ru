@@ -1,4 +1,5 @@
 require 'rack/contrib/try_static'
+require 'newrelic_rpm'
 require 'new_relic/rack/agent_hooks'
 
 use Rack::TryStatic,

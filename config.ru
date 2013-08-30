@@ -1,14 +1,8 @@
-use Rack::Static, 
-  :urls => ["/images", "/js", "/css"],
-  :root => "public"
+require 'rack/contrib/try_static'
 
-run lambda { |env|
-  [
-    200, 
-    {
-      'Content-Type'  => 'text/html', 
-      'Cache-Control' => 'public, max-age=86400' 
-    },
-    File.open('public/home.html', File::RDONLY)
-  ]
-}
+use Rack::TryStatic,
+    :root => "public",
+    :urls => %w[/],
+    :try => ['.html', 'home.html', '/home.html']
+
+run lambda { |env| [404, {'Content-Type' => 'text/plain'}, ['Not Found']] }

@@ -1,11 +1,17 @@
 GEM
   remote: https://rubygems.org/
-  remote: http://rubygems.org/
   specs:
     rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rufus-scheduler (2.0.23)
+      tzinfo (>= 0.3.23)
+    tzinfo (1.0.1)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
   rack
+  rack-contrib
+  rufus-scheduler

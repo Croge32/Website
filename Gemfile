@@ -1,6 +1,5 @@
-# A sample Gemfile
+ruby '2.0.0'
 source "https://rubygems.org"
-
-# gem "rails"
-source :rubygems
 gem 'rack'
+gem 'rack-contrib'
+gem 'rufus-scheduler'

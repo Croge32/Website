@@ -9,9 +9,10 @@
 	<div id="pagecontainer">
 		
 		<div id="headerbar">
-			<h1><a class="headerbutton" href="home.html">Affordable In-Home TV Service</a></h1>
-			<h1><em>Call now us now at</em> <span id="numfont">(225) 262-4472!</span></h1>
-			<h2>Relax... we come to you!</h2>
+			<img id="headerbarImage" src="images/gray circuit banner.jpg"/>
+			<h1 id="buttonText"><a class="headerbutton" href="home.html">Affordable In-Home TV Service</a></h1>
+			<h1 id="numberText">Call now us now at<span id="numfont"> (225) 262-4472</span>!</h1>
+			<h2 id="slogan">Relax... we come to you!</h2>
 		</div>
 
 		<div id="rightbanner">
@@ -30,7 +31,15 @@
 		</div>
 		
 		<div id="maincontent">
-			<p>FORM AREA WHICH WILL FORWARD TO DESIGNATED EMAIL ADDRESS IN ORDER TO ANSWER ANY ASKED QUESTIONS REGARDING PRICE, SERVICE, ETC.</p>
+			<p>FORM AREA WHICH WILL FORWARD TO DESIGNATED EMAIL ADDRESS IN ORDER TO ANSWER ANY ASKED QUESTIONS REGARDING PRICE, SERVICE, AND ANYTHING ELSE. FORM DOESN'T WORK CURRENTLY.</p>
+
+			<form id="askform">
+
+				Name: <input id="namespace" type="text/plain", name="namespace"><br>
+				Phone Number: <input id="numspace" type type="text", name="numspace"><br>
+				Ask your question here:<br> <textarea id="questionbox" rows="20" cols="126"></textarea><br>
+				<input type="submit" value="Submit">
+			</form>
 		</div>
 		
 		<div id="footer">

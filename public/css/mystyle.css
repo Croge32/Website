@@ -1,5 +1,5 @@
 html, body{
-	font-family: Crete Round, Verdana, sans serif;
+	font-family: Crete Round, Tahoma, sans serif;
 	margin: 0;
 	padding: 1px;
 }
@@ -16,25 +16,40 @@ html, body{
 	height: 12.5em;
 }
 
-#headerbar h1:first-child{
-	font-size: 50px;
-	margin: 0;
-	padding-top: 1em;
-	padding-left: .3em;
+#headerbarImage{
+	position: relative;
+	border-top: 0px solid black;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
 }
 
-a.headerbutton:link{text-decoration: none; color: black;}
-a.headerbutton:visited{color: black;}
+#buttonText{
+	position: absolute;
+	font-size: 42px;
+	text-shadow: black 1.5px 1.5px;
+	top: 10px;
+	padding-left: 1.1em;
+}
 
-#headerbar  h1:nth-child(2){
-	float: right;
+a.headerbutton:link{text-decoration: none; color: red; text-shadow: black;}
+a.headerbutton:visited{color: #a6a29f; text-shadow: black;}
+
+#numberText{
+	position: absolute;
+	top: 125px;
+	left: 475px;
+	color: white;
+	text-shadow: -1.5px 0 #a6a29f, 0 1.5px #a6a29f, 1.5px 0 #a6a29f, 0 -1.5px #a6a29f;
 	padding-right: .8em;
 }
 
-#headerbar h2{
-	margin: 0;
-	padding-top: 1em;
-	padding-left: .8em;
+#slogan{
+	position: absolute;
+	top: 70px;
+	font-size: 33px;
+	color: white;
+	text-shadow: -1.5px 0 #a6a29f, 0 1.5px #a6a29f, 1.5px 0 #a6a29f, 0 -1.5px #a6a29f;
+	padding-left: 3em;
 }
 
 #rightbanner{
@@ -52,10 +67,27 @@ a.headerbutton:visited{color: black;}
 }
 
 a.buttonlinks:link{text-decoration: none;}
-a.buttonlinks:visited{color: red;}
+a.buttonlinks:visited{color: blue;}
 a.buttonlinks:hover{color: gray;}
 
+#questionbox{
+	resize: none;
+	padding-right: .7em;
+}
 
+#askform{
+	padding-left: .5em;
+}
+
+#namespace{
+	margin-left: 7.9em;
+	margin-bottom: 1em;
+}
+
+#numspace{
+	margin-left: 3em;
+	margin-bottom: 1em;
+}
 
 #maincontent{
 	margin-right: 12.5em;

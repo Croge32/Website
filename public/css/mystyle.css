@@ -1,15 +1,15 @@
 html, body{
 	font-family: Crete Round, Tahoma, sans serif;
 	margin: 0;
-	padding: 1px;
+	padding: 0.063em;
 }
 
 #pagecontainer{
 	width: 78.750em;
 	height: auto;
 	margin: auto;
-	border: 1px solid blue;
-	border-radius: 15px;
+	border: 0.063em solid blue;
+	border-radius: 0.938em;
 }
 
 #headerbar{
@@ -19,36 +19,36 @@ html, body{
 #headerbarImage{
 	position: relative;
 	border-top: 0px solid black;
-	border-radius: 15px 15px 0 0;
+	border-radius: 0.938em 0.938em 0 0;
 	width: 100%;
 }
 
 #buttonText{
 	position: absolute;
-	font-size: 42px;
-	text-shadow: black 1.5px 1.5px;
-	top: 10px;
+	font-size: 2.625em;
+	text-shadow: black 0.05em 0.05em;
+	top: 0.238em;
 	padding-left: 1.1em;
 }
 
-a.headerbutton:link{text-decoration: none; color: red; text-shadow: black;}
+a.headerbutton:link{text-decoration: none; color: #a6a29f; text-shadow: black;}
 a.headerbutton:visited{color: #a6a29f; text-shadow: black;}
 
 #numberText{
 	position: absolute;
-	top: 125px;
-	left: 475px;
+	top: 4em;
+	left: 15em;
 	color: white;
-	text-shadow: -1.5px 0 #a6a29f, 0 1.5px #a6a29f, 1.5px 0 #a6a29f, 0 -1.5px #a6a29f;
+	text-shadow: -0.05em 0 #a6a29f, 0 0.05em #a6a29f, 0.05em 0 #a6a29f, 0 -0.05em #a6a29f;
 	padding-right: .8em;
 }
 
 #slogan{
 	position: absolute;
-	top: 70px;
-	font-size: 33px;
+	top: 2.15em;
+	font-size: 2.1em;
 	color: white;
-	text-shadow: -1.5px 0 #a6a29f, 0 1.5px #a6a29f, 1.5px 0 #a6a29f, 0 -1.5px #a6a29f;
+	text-shadow: -0.05em 0 #a6a29f, 0 0.05em #a6a29f, 0.05em 0 #a6a29f, 0 -.05em #a6a29f;
 	padding-left: 3em;
 }
 

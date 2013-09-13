@@ -37,7 +37,7 @@ a.headerbutton:visited{color: #a6a29f;}
 #numberText{
 	position: absolute;
 	top: 4em;
-	right: 28.4em;
+	left: 472px;
 	color: white;
 	text-shadow: -0.05em 0 #a6a29f, 0 0.05em #a6a29f, 0.05em 0 #a6a29f, 0 -0.05em #a6a29f;
 	padding-right: .8em;

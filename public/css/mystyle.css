@@ -31,13 +31,13 @@ html, body{
 	padding-left: 1.1em;
 }
 
-a.headerbutton:link{text-decoration: none; color: #a6a29f; text-shadow: black;}
-a.headerbutton:visited{color: #a6a29f; text-shadow: black;}
+a.headerbutton:link{text-decoration: none; color: #a6a29f;}
+a.headerbutton:visited{color: #a6a29f;}
 
 #numberText{
 	position: absolute;
 	top: 4em;
-	left: 15em;
+	right: 28.4em;
 	color: white;
 	text-shadow: -0.05em 0 #a6a29f, 0 0.05em #a6a29f, 0.05em 0 #a6a29f, 0 -0.05em #a6a29f;
 	padding-right: .8em;

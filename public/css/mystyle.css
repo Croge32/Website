@@ -1,6 +1,8 @@
 html, body{
-	font-family: Crete Round, Tahoma, sans serif;
+	font-family: arial round, Tahoma, sans serif;
+	color: #c0c0c0;
 	margin: 0;
+	background-color: #131313;
 	padding: 0.063em;
 }
 
@@ -8,7 +10,8 @@ html, body{
 	width: 78.750em;
 	height: auto;
 	margin: auto;
-	border: 0.063em solid blue;
+	background-color: #252525;
+	border: 0.063em solid #2e8898;
 	border-radius: 0.938em;
 }
 
@@ -62,12 +65,12 @@ a.headerbutton:visited{color: #a6a29f;}
 	text-align: center;
 	padding-top: 4.5em;
 	padding-bottom: 4.45em;
-	border-top: 1px solid blue;
-	border-left: 1px solid blue;
+	border-top: 1px solid #2e8898;
+	border-left: 1px solid #2e8898;
 }
 
-a.buttonlinks:link{text-decoration: none;}
-a.buttonlinks:visited{color: blue;}
+a.buttonlinks:link{text-decoration: none; color: #2e8898;}
+a.buttonlinks:visited{color: #2e8898;}
 a.buttonlinks:hover{color: gray;}
 
 #questionbox{
@@ -94,7 +97,7 @@ a.buttonlinks:hover{color: gray;}
 	height: 41.250em;
 	margin: 0;
 	padding: 0;
-	border-top: 1px solid blue;
+	border-top: 1px solid #2e8898;
 }
 
 #maincontent p {
@@ -110,5 +113,5 @@ a.buttonlinks:hover{color: gray;}
 #footer{
 	clear: both;
 	height: 6em;
-	border-top: 1px solid blue;
+	border-top: 1px solid #2e8898;
 }

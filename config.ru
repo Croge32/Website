@@ -5,7 +5,7 @@ require 'new_relic/rack/agent_hooks'
 use Rack::TryStatic,
     :root => "public",
     :urls => %w[/],
-    :try => ['.html', 'home.html', 'ask.html', 'about.html', 'models.html', 'estimates.html', '.php']
+    :try => ['.html', 'home.html', 'ask.html', 'about.html', 'models.html', 'estimates.html', 'test.php', 'header.php']
 
 use NewRelic::Rack::AgentHooks
 

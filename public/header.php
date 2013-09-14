@@ -9,12 +9,16 @@
 	<div id="pagecontainer">
 		
 		<div id="headerbar">
-			<img id="headerbarImage" src="images/webbanner.jpg"/>
+			<img id="headerbarImage" src="images/webbanner.jpg" usemap="#tvmap"/>
+			<map name="tvmap">
+				<area shape="rect" coords="156, 69, 879, 114" href="home.html" alt="Click for home page">
+			</map>
+
 			<!--<h1 id="buttonText"><a class="headerbutton" href="home.html">Affordable In-Home TV Service</a></h1>
 			<h2 id="slogan">Relax... we come to you!</h2>
 			<h1 id="numberText">Call now us now at<span id="numfont"> (225) 262-4472</span>!</h1>-->
 		</div>
-
+		
 		<div id="rightbanner">
 			<div class="sidebuttons">
 				<a class="buttonlinks" href="estimates.html">Estimates and Rates</a>
@@ -31,14 +35,3 @@
 		</div>
 		
 		<div id="maincontent">
-			<p>INFORMATION ABOUT THE VARIOUS PRICES FOR LOCATIONS IN THE BATON ROUGE AREA</p>
-		</div>
-		
-		<div id="footer">
-			<strong>THIS WEBSITE IS UNDER CONTRUCTION. IT IS ONLINE FOR TESTING PURPOSES.</strong>
-			<p>This will contain any typical footer information such as copyright, references, credits, etc etc.</p>
-		</div>
-		
-	</div>
-</body>
-<html>

@@ -1,0 +1,1 @@
+<?php include('html and php/home.html'); ?>

@@ -1,1 +1,1 @@
-<?php include('html and php/home.html'); ?>
+<?php include('html and php/home.php'); ?>

@@ -9,21 +9,21 @@
 		<div id="headerbar">
 			<img id="headerbarImage" src="images/webbanner.jpg" usemap="#tvmap"/>
 			<map name="tvmap">
-				<area shape="rect" coords="156, 69, 879, 114" href="home.html" alt="Click for home page">
+				<area shape="rect" coords="156, 69, 879, 114" href="home.php" alt="Click for home page">
 			</map>
 		</div>
 
 		<div id="rightbanner">
 			<div class="sidebuttons">
-				<a class="buttonlinks" href="estimates.html">Estimates and Rates</a>
+				<a class="buttonlinks" href="estimates.php">Estimates and Rates</a>
 			</div>
 			<div class="sidebuttons">
-				<a class="buttonlinks" href="models.html">Models We Work On</a>
+				<a class="buttonlinks" href="models.php">Models We Work On</a>
 			</div>
 			<div class="sidebuttons">
-				<a class="buttonlinks" href="about.html">About Us</a>
+				<a class="buttonlinks" href="about.php">About Us</a>
 			</div>
 			<div class="sidebuttons">
-				<a class="buttonlinks" href="ask.html">Ask Us a Question!</a>
+				<a class="buttonlinks" href="ask.php">Ask Us a Question!</a>
 			</div>
 		</div>

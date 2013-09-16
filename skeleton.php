@@ -1,5 +1,6 @@
 <head>	
 	<link type="text/css" rel="stylesheet" href="css\mystyle.css"/>
+	<link rel="icon" type="image/png" href="favicon.png">
 	<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
 	<title>Affordable In-Home TV Service</title>
 </head>

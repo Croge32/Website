@@ -62,17 +62,21 @@ a.headerbutton:visited{color: #a6a29f;}
 }
 
 .sidebuttons{
+	position: relative;
+	height: 164px;
+	width: 199px;
 	text-align: center;
+	line-height: 158px;
 	font-size: 21px;
-	padding-top: 3.318em;
-	padding-bottom: 3.318em;
+	opacity: .5;
 	border-top: 1px solid #2e8898;
 	border-left: 1px solid #2e8898;
+	border-bottom: 1px solid #2e8898;
+	border-right: 1px solid #2e8898;
 }
 
-a.buttonlinks:link{text-decoration: none; color: #2e8898;}
+a.buttonlinks:link{text-decoration: none; color: #2e8898; display: block; height: 100%;}
 a.buttonlinks:visited{color: #2e8898;}
-a.buttonlinks:hover{color: gray;}
 
 #questionbox{
 	resize: none;

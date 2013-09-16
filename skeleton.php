@@ -2,6 +2,9 @@
 	<link type="text/css" rel="stylesheet" href="css\mystyle.css"/>
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<title>Affordable In-Home TV Service</title>
 </head>
 <body>

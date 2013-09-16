@@ -63,8 +63,9 @@ a.headerbutton:visited{color: #a6a29f;}
 
 .sidebuttons{
 	text-align: center;
-	padding-top: 4.5em;
-	padding-bottom: 4.45em;
+	font-size: 21px;
+	padding-top: 3.318em;
+	padding-bottom: 3.318em;
 	border-top: 1px solid #2e8898;
 	border-left: 1px solid #2e8898;
 }
@@ -83,7 +84,7 @@ a.buttonlinks:hover{color: gray;}
 }
 
 #namespace{
-	margin-left: 7.9em;
+	margin-left: 8.15em;
 	margin-bottom: 1em;
 }
 

@@ -7,7 +7,7 @@
 
 	<div id="askform">
 		<?php
-			include ('sendgrid-php/SendGrid_loader.php');
+			include ('vendor/autoload.php');
 			$sendgrid = new SendGrid('app17627688@heroku.com', 'nfi772ms');
 			$mail = new SendGrid\Mail();
 			$mail->

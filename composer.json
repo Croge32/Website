@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sendgrid/sendgrid": "~1.0.0"
+    }
+}
+

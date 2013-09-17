@@ -22,7 +22,7 @@
   				setFrom($_REQUEST['email'])->
 				setSubject($_REQUEST['subject'])->
   				setText($_REQUEST['message'])->
-  				//setHtml('<strong>Hello World!</strong>');
+  				setHtml($_REQUEST['message']);
 
   				$sendgrid->
 				smtp->

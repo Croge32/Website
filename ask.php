@@ -20,6 +20,7 @@
  			$mail->
   				addTo('croge32@gmail.com')->
   				setFrom($_REQUEST['email'])->
+  				setFromName($_REQUEST['name'])->
 				setSubject($_REQUEST['subject'])->
   				setText($_REQUEST['message'])->
   				setHtml($_REQUEST['message']);
@@ -27,15 +28,18 @@
   				$sendgrid->
 				smtp->
  					send($mail);
+
+ 				echo "<h2>Thank you for your submission! We will respond to your email shortly.</h2>";
   			}
 			else
 //if "email" is not filled out, display the form
 			{
-  				echo "<form method='post' action='ask.php'>
-  				Email: <input name='email' type='text'><br>
-  				Subject: <input name='subject' type='text'><br>
+  				echo "<form id='askform' method='post' action='ask.php'>
+  				Name: <input id='namebox' name='name' type='text'><br>
+  				Email: <input id='emailbox' name='email' type='text'><br>
+  				Subject: <input style='margin-bottom: 1em' name='subject' type='text'><br>
   				Message:<br>
-  				<textarea name='message' rows='15' cols='40'>
+  				<textarea name='message' rows='15' cols='120'>
   				</textarea><br>
   				<input type='submit'>
   				</form>";

@@ -93,6 +93,15 @@ a.buttonlinks:visited{color: #2e8898;}
 	margin-bottom: 1em;
 }
 
+#namebox{
+	margin-left: 1.11em;
+	margin-bottom: 1em;
+}
+
+#askform h2{
+	padding: .4em;
+}
+
 #maincontentHome{
 	text-align: justify;
 	margin: 0;

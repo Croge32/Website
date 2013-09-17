@@ -7,29 +7,19 @@
 
 	<div id="askform">
 		<?php
-			if (isset($_REQUEST['email']))
-//if "email" is filled out, send email
-  			{
-  //send email
-  				$email = $_REQUEST['email'] ;
-  				$subject = $_REQUEST['subject'] ;
-  				$message = $_REQUEST['message'] ;
-  				mail("croge32@gmail.com", $subject,
-  				$message, "From:" . $email);
-  				echo "Thank you for using our mail form";
-			}
-			else
-//if "email" is not filled out, display the form
-  			{
-  				echo "<form method='post' action='ask.php'>
-  				Email: <input id='emailbox' name='email' type='text'><br>
-  				Subject: <input style='margin-bottom: 1em' name='subject' type='text'><br>
-  				Message:<br>
-  				<textarea name='message' rows='15' cols='123'>
-  				</textarea><br>
-  				<input type='submit'>
-  				</form>";
-  			}
+			include ('sendgrid-php/SendGrid_loader.php');
+			$sendgrid = new SendGrid('app17627688@heroku.com', 'nfi772ms');
+			$mail = new SendGrid\Mail();
+			$mail->
+  			addTo('croge32@gmail.com')->
+  			setFrom('me@bar.com')->
+			setSubject('Subject goes here')->
+  			setText('Hello World!')->
+  			setHtml('<strong>Hello World!</strong>');
+
+  			$sendgrid->
+			smtp->
+ 				send($mail);
 		?>
 	</div>
 

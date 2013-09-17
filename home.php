@@ -3,13 +3,17 @@
 
 	<?php include('skeleton.php'); ?>
 
-	<div id="maincontent">
-		<p>This is the main website content area! Here I will explain the purpose of the company as well as a few comments on the longevity and quality of service
-		provided by an in-home repair.</p>
-		
-		<p>I am not too sure what entirely I will write here and how the paragraphs will divide up, but I will try to roughly fill the entire content area.</p>
-		
-		<p>Three paragraphs or so should be plenty enough to describe everything.</p>
+	<div id="maincontentHome">
+		<h1>Do you have a broken television and no means to purchase a new set or bring your TV to a repair shop?</h1>
+
+		<p>At Affordable In-Home TV Service, we do all the work for you! Simply call and we will send a licensed technician to your home to inspect, diagnose, 
+		and repair your television, all within the comfort of your home!</p>
+
+		<p>With our technician in your home, you can be sure you are receiving the BEST service at a BARGAIN price. With in-home repair, you don't have to fear
+		additional damage to your television through transit to a repair shop or the negligence of a shop repairman. You will stay informed, as our technician will provide a detailed explanation
+		of your teleivion's issue as he repairs it.</p>
+
+		<h1>Don't overwork yourself! At Affordable In-Home TV Service, you can relax... we come to you!</h1>
 	</div>
 
 	<?php include('footer.php'); ?>

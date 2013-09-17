@@ -8,18 +8,38 @@
 	<div id="askform">
 		<?php
 			include ('vendor/autoload.php');
-			$sendgrid = new SendGrid('app17627688@heroku.com', 'nfi772ms');
-			$mail = new SendGrid\Mail();
-			$mail->
-  			addTo('croge32@gmail.com')->
-  			setFrom('me@bar.com')->
-			setSubject('Subject goes here')->
-  			setText('Hello World!')->
-  			setHtml('<strong>Hello World!</strong>');
 
-  			$sendgrid->
-			smtp->
- 				send($mail);
+			$sendgrid = new SendGrid('app17627688@heroku.com', 'nfi772ms');
+			
+			$mail = new SendGrid\Mail();
+			
+			if (isset($_REQUEST['email']))
+//if "email" is filled out, send email
+  			{
+  //send email
+ 			$mail->
+  				addTo('croge32@gmail.com')->
+  				setFrom($_REQUEST['email'])->
+				setSubject($_REQUEST['subject'])->
+  				setText($_REQUEST['message'])->
+  				setHtml('<strong>Hello World!</strong>');
+
+  				$sendgrid->
+				smtp->
+ 					send($mail);
+  			}
+			else
+//if "email" is not filled out, display the form
+			{
+  				echo "<form method='post' action='ask.php'>
+  				Email: <input name='email' type='text'><br>
+  				Subject: <input name='subject' type='text'><br>
+  				Message:<br>
+  				<textarea name='message' rows='15' cols='40'>
+  				</textarea><br>
+  				<input type='submit'>
+  				</form>";
+  			}
 		?>
 	</div>
 

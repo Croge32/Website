@@ -10,7 +10,7 @@
 			and possesses an LA Radio and TV License as well as an F.C.C License.
 		</p>
 
-		<h2 style="padding-top: 2em; padding-bottom: 1em">Contacting us is easy!</h2>
+		<h2 style="padding-top: 2em; padding-bottom: 1em">Contacting us is easy</h2>
 			<p>Telephone and Fax: (225) 262-4472</p>
 			<p>email: orogers225@gmail.com</p>
 	</div>

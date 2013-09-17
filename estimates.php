@@ -23,7 +23,7 @@
 			<h3>We also will come out to Walker, Zachary, Prairieville, Port Allen, Brusly, and Addis.</h3>
 
 			<h1 style="padding-top: 1em">
-				For estimates on the cost of service in your area, give us a call!</h1>
+				For estimates on the cost of service in your area, give us a call at (225) 262-4472.</h1>
 	</div>
 
 	<?php include('footer.php'); ?>

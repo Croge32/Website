@@ -21,11 +21,11 @@
 			else
 //if "email" is not filled out, display the form
   			{
-  				echo "<form method='post' action='mailform.php'>
-  				Email: <input name='email' type='text'><br>
-  				Subject: <input name='subject' type='text'><br>
+  				echo "<form method='post' action='ask.php'>
+  				Email: <input id='emailbox' name='email' type='text'><br>
+  				Subject: <input style='margin-bottom: 1em' name='subject' type='text'><br>
   				Message:<br>
-  				<textarea name='message' rows='15' cols='40'>
+  				<textarea name='message' rows='15' cols='123'>
   				</textarea><br>
   				<input type='submit'>
   				</form>";

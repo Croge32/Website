@@ -80,21 +80,16 @@ a.headerbutton:visited{color: #a6a29f;}
 a.buttonlinks:link{text-decoration: none; color: #2e8898; display: block; height: 100%;}
 a.buttonlinks:visited{color: #2e8898;}
 
-#questionbox{
-	resize: none;
-}
-
 #askform{
-	padding-left: .5em;
+	padding: 1em;
 }
 
-#namespace{
-	margin-left: 8.15em;
-	margin-bottom: 1em;
+#askheader{
+	padding: 1em;
 }
 
-#numspace{
-	margin-left: 3em;
+#emailbox{
+	margin-left: 1.3em;
 	margin-bottom: 1em;
 }
 
@@ -168,4 +163,5 @@ a.buttonlinks:visited{color: #2e8898;}
 	clear: both;
 -	height: 6em;
 	border-top: 1px solid #2e8898;
+	padding: 1em;
 }

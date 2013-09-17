@@ -3,17 +3,32 @@
 
 	<?php include('skeleton.php'); ?>
 
-	<div id="maincontentAsk">
-		<p>FORM AREA WHICH WILL FORWARD TO DESIGNATED EMAIL ADDRESS IN ORDER TO ANSWER ANY ASKED QUESTIONS REGARDING PRICE, SERVICE, AND ANYTHING ELSE. FORM DOESN'T WORK CURRENTLY.</p>
+	<h2 id="askheader"> Questions? Comments? Reviews? Email us here.</h2>
 
-			<form id="askform">
-
-				Name: <input id="namespace" type="text/plain", name="namespace"><br>
-				Phone Number: <input id="numspace" type type="text", name="numspace"><br>
-				Ask your question here:<br> <textarea id="questionbox" rows="20" cols="120"></textarea><br>
-				<input type="submit" value="Submit">
-			</form>
-	</div>
+	<div id="askform" <?php
+		if (isset($_REQUEST['email']))
+//if "email" is filled out, send email
+ 		{
+ //send email
+  			$email = $_REQUEST['email'] ;
+ 			$subject = $_REQUEST['subject'] ;
+  			$message = $_REQUEST['message'] ;
+  			mail("croge32@gmail.com", $subject,
+  			$message, "From:" . $email);
+ 			echo "Thank you for using our mail form";
+ 		}
+		else
+//if "email" is not filled out, display the form
+		{
+ 			echo "<form method='post' action='mailform.php'>
+			Email: <input id='emailbox' name='email' type='text'><br>
+ 		 	Subject: <input style='margin-bottom: 1em;' name='subject' type='text'><br>
+ 		 	Message:<br>
+		 	<textarea name='message' rows='15' cols='120'></textarea><br>
+ 		 	<input type='submit'>
+ 		 	</form>";
+  		}
+	?></div>
 
 	<?php include('footer.php'); ?>
 	

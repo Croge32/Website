@@ -7,6 +7,7 @@
 	<title>Affordable In-Home TV Service</title>
 </head>
 <body>
+	<?php include_once("analyticstracking.php") ?>
 	<div id="pagecontainer">
 		
 		<div id="headerbar">

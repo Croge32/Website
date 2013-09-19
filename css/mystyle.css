@@ -32,7 +32,7 @@ html, body{
 
 #pagecontainer{
 	width: 78.750em;
-	height: auto;
+	height: 100%;
 	margin: auto;
 	background-color: #252525;
 	border: 0.063em solid #2e8898;
@@ -49,19 +49,22 @@ html, body{
 	border-radius: 0.938em 0.938em 0 0;
 	width: 100%;
 }
-
+/*
 #rightbanner{
 	position: relative;
 	float: right;
 	padding-left: 1.8em;
 }
-
+*/
 .sidebuttons{
 	position: relative;
-	height: 100%;
+	clear: both;
+	float: right;
+	margin-left: 1.35em;
+	height: 6.2em;
+	line-height: 6.2em;
 	width: 9.476em;
 	text-align: center;
-	line-height: 6.225em;
 	font-size: 21px;
 	opacity: .5;
 	border-top: 0.048em solid #2e8898;
@@ -237,7 +240,7 @@ a.buttonlinks:visited{color: #2e8898;}
 
 #footer{
 	clear: both;
--	height: 6em;
+	height: auto;
 	border-top: 1px solid #2e8898;
-	padding: 1em;
+	padding: .5em;
 }

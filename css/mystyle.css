@@ -1,3 +1,27 @@
+/*
+=========================================
+	CSS for Affordable In-Home TV Service
+=========================================
+*/
+
+
+/*
+
+===================================================================================================
+	SKELETON.PHP ELEMENTS
+
+	HTML, BODY: General text styles, color, background color, and page padding;
+	PAGE CONTAINER: formatting of area where all content will reside;
+	HEADERBAR: Area where website banner resides;
+	HEADERBAR IMAGE: Formatting for actual banner image;
+	RIGHT BANNER: Moves div to the right screen and allows for formatting of navigation buttons;
+	SIDEBUTTONS: Formats the navigation buttons themselves;
+	BUTTON LINKS: Determines the link attributes of the navigation buttons;
+===================================================================================================
+
+*/
+
+
 html, body{
 	font-family: arial rounded, Tahoma, sans serif;
 	color: #c0c0c0;
@@ -26,49 +50,18 @@ html, body{
 	width: 100%;
 }
 
-#buttonText{
-	position: absolute;
-	font-size: 2.625em;
-	text-shadow: black 0.05em 0.05em;
-	top: 0.238em;
-	padding-left: 1.1em;
-}
-
-a.headerbutton:link{text-decoration: none; color: #a6a29f;}
-a.headerbutton:visited{color: #a6a29f;}
-
-#numberText{
-	position: absolute;
-	top: 4em;
-	padding-left: 4.5em;
-	color: white;
-	text-shadow: -0.05em 0 #a6a29f, 0 0.05em #a6a29f, 0.05em 0 #a6a29f, 0 -0.05em #a6a29f;
-}
-
-#slogan{
-	position: absolute;
-	top: 2.15em;
-	font-size: 2.1em;
-	color: white;
-	text-shadow: -0.05em 0 #a6a29f, 0 0.05em #a6a29f, 0.05em 0 #a6a29f, 0 -.05em #a6a29f;
-	padding-left: 3em;
-
-}
-
 #rightbanner{
 	position: relative;
 	float: right;
 	padding-left: 1.8em;
-	width: 12.5em;
-	height: 41.250em;
 }
 
 .sidebuttons{
 	position: relative;
-	height: 6.190em;
+	height: auto;
 	width: 9.476em;
 	text-align: center;
-	line-height: 6.429em;
+	line-height: 6.225em;
 	font-size: 21px;
 	opacity: .5;
 	border-top: 0.048em solid #2e8898;
@@ -80,27 +73,19 @@ a.headerbutton:visited{color: #a6a29f;}
 a.buttonlinks:link{text-decoration: none; color: #2e8898; display: block; height: 100%;}
 a.buttonlinks:visited{color: #2e8898;}
 
-#askform{
-	padding: 1em;
-}
 
-#askheader{
-	padding: 1em;
-}
+/*
 
-#emailbox{
-	margin-left: 1.3em;
-	margin-bottom: 1em;
-}
+============================================================================
+	HOME.PHP ELEMENTS
 
-#namebox{
-	margin-left: 1.11em;
-	margin-bottom: 1em;
-}
+	MAIN CONTENT HOME: Sets formatting for main content area of Home page;
+		h1: Sets color of header;
+		p: Formatting for paragraph text;
+============================================================================
 
-#askform h2{
-	padding: .4em;
-}
+*/
+
 
 #maincontentHome{
 	text-align: justify;
@@ -119,6 +104,19 @@ a.buttonlinks:visited{color: #2e8898;}
 	padding-bottom: 1em;
 }
 
+
+/*
+
+=========================================================================================
+	ESTIMATES.PHP ELEMENTS
+
+	MAIN CONTENT ESTIMATES: Sets formatting for main content area of Estimates page;
+		h2: Sets padding for header;
+==========================================================================================
+
+*/
+
+
 #maincontentEstimates {
 	text-align: justify;
 	margin: 0;
@@ -129,6 +127,20 @@ a.buttonlinks:visited{color: #2e8898;}
 #maincontentEstimates h2{
 	padding-bottom: 1em;
 }
+
+
+/*
+
+==================================================================================
+	MODELS.PHP ELEMENTS
+
+	MAIN CONTENT MODELS: Sets formatting fr main content area of Models page;
+		h2: Sets padding for header;
+		p: Formatting for paragraphs of Models page;
+==================================================================================
+
+*/
+
 
 #maincontentModels{
 	text-align: justify;
@@ -146,6 +158,19 @@ a.buttonlinks:visited{color: #2e8898;}
 	padding-bottom: 1em;
 }
 
+
+/*
+
+==================================================================================
+	ABOUT.PHP ELEMENTS
+
+	MAIN CONTENT ABOUT: Sets formatting fr main content area of About page;
+		p: Formatting for paragraphs of Models page;
+==================================================================================
+
+*/
+
+
 #maincontentAbout{
 	text-align: justify;
 	margin: 0;
@@ -157,6 +182,23 @@ a.buttonlinks:visited{color: #2e8898;}
 	font-size: 18px;
 }
 
+
+/*
+
+=================================================================================
+	ASK.PHP ELEMENTS
+
+	MAIN CONTENT ASK: The main content formatting of the Ask page;
+	ASK HEADER: Sets padding for the first line of the ask form;
+	ASK FORM
+		h2: Sets padding for the line that appears after an email has been sent;
+	NAME BOX: Sets formatting for the Name input field of the ask form;
+	EMAIL BOX: Sets formatting for the Email input field of the ask form;
+=================================================================================
+
+*/
+
+
 #maincontentAsk{
 	text-align: justify;
 	margin: 0;
@@ -164,9 +206,35 @@ a.buttonlinks:visited{color: #2e8898;}
 	border-top: 1px solid #2e8898;
 }
 
-#numfont{
-	font-family: Arial;
+#askheader{
+	padding-bottom: .5em;
 }
+
+#askform h2{
+	padding: .4em;
+}
+
+#namebox{
+	margin-left: 1.11em;
+	margin-bottom: 1em;
+}
+
+#emailbox{
+	margin-left: 1.3em;
+	margin-bottom: 1em;
+}
+
+
+/*
+
+==================================================================================
+	FOOTER.PHP ELEMENTS
+
+	FOOTER: Sets content of footer area on the bottom of the website;
+==================================================================================
+
+*/
+
 
 #footer{
 	clear: both;

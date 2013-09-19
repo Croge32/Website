@@ -58,10 +58,10 @@ html, body{
 
 .sidebuttons{
 	position: relative;
-	height: auto;
 	width: 9.476em;
 	text-align: center;
-	line-height: 6.225em;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
 	font-size: 21px;
 	opacity: .5;
 	border-top: 0.048em solid #2e8898;
@@ -234,7 +234,6 @@ a.buttonlinks:visited{color: #2e8898;}
 ==================================================================================
 
 */
-
 
 #footer{
 	clear: both;

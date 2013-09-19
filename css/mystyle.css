@@ -58,10 +58,10 @@ html, body{
 
 .sidebuttons{
 	position: relative;
+	height: 100%;
 	width: 9.476em;
 	text-align: center;
-	padding-top: 2.5em;
-	padding-bottom: 2.5em;
+	line-height: 6.225em;
 	font-size: 21px;
 	opacity: .5;
 	border-top: 0.048em solid #2e8898;

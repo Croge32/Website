@@ -14,7 +14,6 @@
 	PAGE CONTAINER: formatting of area where all content will reside;
 	HEADERBAR: Area where website banner resides;
 	HEADERBAR IMAGE: Formatting for actual banner image;
-	RIGHT BANNER: Moves div to the right screen and allows for formatting of navigation buttons;
 	SIDEBUTTONS: Formats the navigation buttons themselves;
 	BUTTON LINKS: Determines the link attributes of the navigation buttons;
 ===================================================================================================
@@ -49,15 +48,10 @@ html, body{
 	border-radius: 0.938em 0.938em 0 0;
 	width: 100%;
 }
-/*
-#rightbanner{
-	position: relative;
-	float: right;
-	padding-left: 1.8em;
-}
-*/
+
 .sidebuttons{
 	position: relative;
+	background-color: #252525;
 	clear: both;
 	float: right;
 	margin-left: 1.35em;
@@ -97,12 +91,12 @@ a.buttonlinks:visited{color: #2e8898;}
 	border-top: 1px solid #2e8898;
 }
 
-#maincontentHome h1 {
-	color: white;
+#maincontentHome h2 {
+	color: #c0c0c0;
 }
 
 #maincontentHome p {
-	font-size: 21px;
+	font-size: 18px;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }

@@ -4,6 +4,6 @@ $(document).ready(function() {
 	});
 
 	$('.sidebuttons').mouseleave(function(){
-		$(this).fadeTo('fast', 0.5);
+		$(this).fadeTo('fast', .5);
 	});
 });

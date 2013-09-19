@@ -65,16 +65,16 @@ a.headerbutton:visited{color: #a6a29f;}
 
 .sidebuttons{
 	position: relative;
-	height: 130px;
-	width: 199px;
+	height: 6.190em;
+	width: 9.476em;
 	text-align: center;
-	line-height: 135px;
+	line-height: 6.429em;
 	font-size: 21px;
 	opacity: .5;
-	border-top: 1px solid #2e8898;
-	border-left: 1px solid #2e8898;
-	border-bottom: 1px solid #2e8898;
-	border-right: 1px solid #2e8898;
+	border-top: 0.048em solid #2e8898;
+	border-left: 0.048em solid #2e8898;
+	border-bottom: 0.048em solid #2e8898;
+	border-right: 0.048em solid #2e8898;
 }
 
 a.buttonlinks:link{text-decoration: none; color: #2e8898; display: block; height: 100%;}

@@ -4,7 +4,7 @@
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-	<title>Affordable In-Home TV Service | Broken TV? We Come to You!</title>
+	<title>Affordable In-Home TV Service | Baton Rouge, (225) 262-4472</title>
 	<meta name="Affordable In-Home TV Service" content="Broken TV? Don't take it to the shop! Call us at (225) 262-4473 and we'll come to you!">
 </head>
 <body>

@@ -18,7 +18,7 @@
   			{
   //send email
  			$mail->
-  				addTo('croge32@gmail.com')->
+  				addTo('orogers225@gmail.com')->
   				setFrom($_REQUEST['email'])->
   				setFromName($_REQUEST['name'])->
 				setSubject($_REQUEST['subject'])->
